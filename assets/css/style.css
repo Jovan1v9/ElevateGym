@@ -373,13 +373,13 @@ footer{
     text-align: center;
 }
 #copyright p{
+    font-size: 20px;
     padding: 10px;
     word-spacing: 2px;
 }
 #copyright hr{
     border-color: #3A7CA5;
     width: 100%;
-    size: 2px;
 }
 #footer{
     display: flex;
@@ -393,7 +393,8 @@ footer{
     width: 30%;
     height: 200px;
 }
-.text-footer p{
+.text-footer p, a{
+    font-size: 20px;
     line-height: 30px;
 }
 .text-footer h2{
