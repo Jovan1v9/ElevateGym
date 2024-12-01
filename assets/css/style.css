@@ -472,16 +472,21 @@ footer{
 .pricing {
     position: relative;
     width: 30%;
-    height: 60%;
+    height: 65%;
     border: 1px solid #ddd;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .pricing h2{
-    margin-top: 20px;
     margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 40px;
+    background-color: #3A7CA5;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .pricing:hover {
     transform: translateY(-10px);
@@ -501,8 +506,9 @@ footer{
     color: #0C1618;
 }
 .price {
+    padding-top: 5px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 25px;
     color: #0C1618;
 }
 .pricing a {
@@ -689,4 +695,120 @@ input[type='text']:focus, [type='email']:focus, [type='telephone']:focus, textar
     border: 3px solid #3A7CA5;
     width: 100%;
     margin-top: 10px;
+}
+#group-classes{
+    background-color: #0C1618;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#schedule-wrap{
+    height: 70%;
+    width: 100%;
+}
+#schedule{
+    width: 74%;
+    margin: 0px auto;
+}
+table{
+    border: none;
+    border-spacing: 10px;
+    font-size: 20px;
+}
+table th, td{
+    border: none;
+    padding: 25px;
+    border-radius: 3px;
+}
+#schedule tr th{
+    background-color: #3A7CA5;
+    text-align: center;
+} 
+#schedule tbody td {
+    text-align: center;
+    background-color: #ffffff;
+    color: #0C1618;
+    font-weight: bold;
+}
+#schedule tbody td:first-child{
+    color:#ffffff;
+    background-color: #3A7CA5;
+}
+.hidden{
+    visibility: hidden;
+}
+#testimonials-wrap {
+    height: 60vh;
+    width: 100%;
+}
+.testimonials {
+    margin: 0px auto;
+    margin-top: 150px;
+    height: 50%;
+	width: 80%;
+}
+.testimonials ul {
+	list-style: none;
+	padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonials li {
+	background-color: white;
+	width: 48.5%;
+	height: 200px;
+	border: solid 1px #bdbdbd;
+    border-radius: 10px;
+	position: relative;
+}
+
+.testimonials li img {
+	height: 100px;
+	width: 100px;
+    margin-left: 315px;
+    margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 15px #ffffff;
+	background-color: #ffffff;
+}
+
+.testimonials li p {
+	width: 80%;
+	text-align: center;
+    margin-left: 70px;
+    margin-top: 10px;
+    color: #0C1618;
+}
+.testimonials h1 {
+    position: absolute;
+	top: 170px;
+	left: 50%;
+	transform: translatex(-50%);
+	font-weight: bold;
+    color: #0C1618;
+    font-size: 17px;
+}
+.text4 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom:5px solid #3A7CA5;
+}
+.text5 h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #0C1618;
+    padding-bottom: 20px;
+    width: 600px;
+    border-bottom:5px solid #3A7CA5;
 }
